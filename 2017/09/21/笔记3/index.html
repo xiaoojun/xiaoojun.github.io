@@ -69,17 +69,17 @@
 
 
 
-<meta name="description" content="杯中许生死 梦醒却似隔千山">
-<meta property="og:type" content="website">
-<meta property="og:title" content="tags">
-<meta property="og:url" content="http://yoursite.com/tags/index.html">
+<meta name="description" content="pip 常用命令######     python3 下为pip3  列出已安装的包  pip list or pip freeze    导出包列表内容到指定文件  pip freeze &amp;gt; &amp;lt;目录&amp;gt;/requirements.txt   在线安装  pip install &amp;lt;包名&amp;gt; 或 pip install -r requirements.txt   通过使用=">
+<meta property="og:type" content="article">
+<meta property="og:title" content="笔记">
+<meta property="og:url" content="http://yoursite.com/2017/09/21/笔记3/index.html">
 <meta property="og:site_name" content="笔记">
-<meta property="og:description" content="杯中许生死 梦醒却似隔千山">
+<meta property="og:description" content="pip 常用命令######     python3 下为pip3  列出已安装的包  pip list or pip freeze    导出包列表内容到指定文件  pip freeze &amp;gt; &amp;lt;目录&amp;gt;/requirements.txt   在线安装  pip install &amp;lt;包名&amp;gt; 或 pip install -r requirements.txt   通过使用=">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2017-09-20T09:03:20.000Z">
+<meta property="og:updated_time" content="2017-09-21T03:54:48.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="tags">
-<meta name="twitter:description" content="杯中许生死 梦醒却似隔千山">
+<meta name="twitter:title" content="笔记">
+<meta name="twitter:description" content="pip 常用命令######     python3 下为pip3  列出已安装的包  pip list or pip freeze    导出包列表内容到指定文件  pip freeze &amp;gt; &amp;lt;目录&amp;gt;/requirements.txt   在线安装  pip install &amp;lt;包名&amp;gt; 或 pip install -r requirements.txt   通过使用=">
 
 
 
@@ -109,13 +109,13 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/tags/"/>
+  <link rel="canonical" href="http://yoursite.com/2017/09/21/笔记3/"/>
 
 
 
 
 
-  <title>tags | 笔记</title>
+  <title> | 笔记</title>
   
 
 
@@ -230,40 +230,220 @@
 
   <div id="posts" class="posts-expand">
     
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/09/21/笔记3/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="xiaoojun">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="笔记">
+    </span>
+
     
-    
-    <div class="post-block page">
       <header class="post-header">
 
-	<h1 class="post-title" itemprop="name headline">tags</h1>
-
-
-
-</header>
-
-      
-      
-      
-      <div class="post-body">
         
         
-          <div class="tag-cloud">
-            <div class="tag-cloud-title">
-                暂无标签
-            </div>
-            <div class="tag-cloud-tags">
+          <h1 class="post-title" itemprop="name headline"></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
               
-            </div>
-          </div>
-        
-      </div>
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-09-21T11:54:48+08:00">
+                2017-09-21
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
       
       
+
+      
+        <h4 id="pip-常用命令"><a href="#pip-常用命令" class="headerlink" title="pip 常用命令"></a>pip 常用命令</h4><pre><code>######     python3 下为pip3
+</code></pre><ul>
+<li><p>列出已安装的包</p>
+<blockquote>
+<p>pip list or pip freeze </p>
+</blockquote>
+</li>
+<li><p>导出包列表内容到指定文件</p>
+<blockquote>
+<p>pip freeze &gt; &lt;目录&gt;/requirements.txt</p>
+</blockquote>
+</li>
+<li><p>在线安装</p>
+<blockquote>
+<p>pip install &lt;包名&gt; 或 pip install -r requirements.txt</p>
+</blockquote>
+</li>
+<li><p><em>通过使用==  &gt;=  &lt;=  &gt;  &lt;来指定版本，不写则安装最新版</em></p>
+<blockquote>
+<p>Django==1.5.4 </p>
+</blockquote>
+</li>
+<li><p>本地安装</p>
+<blockquote>
+<p>pip install &lt;目录&gt;/&lt;文件名&gt; 或 pip install —use-wheel — no-index —find-links=wheelhouse/ &lt;包名&gt;</p>
+<p>包名前后有空格</p>
+<p>可简写为</p>
+<p>pip install —no-index -f=&lt;目录&gt;/ &lt;包名&gt;</p>
+</blockquote>
+</li>
+<li><p>卸载包</p>
+<blockquote>
+<p>pip uninstall &lt;包名&gt; 或 pip uninstall -r requirements.txt</p>
+</blockquote>
+</li>
+<li><p>升级包</p>
+<blockquote>
+<p>pip install -U &lt;包名&gt;</p>
+</blockquote>
+</li>
+<li><p>升级pip</p>
+<blockquote>
+<p>pip install -U pip</p>
+</blockquote>
+</li>
+<li><p>显示包所在目录</p>
+<blockquote>
+<p>pip show -f &lt;包名&gt;</p>
+</blockquote>
+</li>
+<li><p>搜索包</p>
+<blockquote>
+<p>pip search &lt;搜索关键字&gt;</p>
+</blockquote>
+</li>
+<li><p>查询可升级的包</p>
+<blockquote>
+<p>pip list -o</p>
+</blockquote>
+</li>
+<li><p>下载包尔不安装</p>
+<blockquote>
+<p>pip install &lt;包名&gt; -d &lt;目录&gt; 或 pip install -d &lt;目录&gt; -r requirements.txt</p>
+</blockquote>
+</li>
+<li><p>打包</p>
+<blockquote>
+<p>pip wheel &lt;包名&gt;</p>
+</blockquote>
+</li>
+</ul>
+<h4 id="更换国内镜像"><a href="#更换国内镜像" class="headerlink" title="更换国内镜像"></a>更换国内镜像</h4><h5 id="国内pypi镜像"><a href="#国内pypi镜像" class="headerlink" title="国内pypi镜像"></a>国内pypi镜像</h5><ul>
+<li>V2EX：<a href="http://pypi.v2ex.com/simple" target="_blank" rel="external">pypi.v2ex.com/simple</a></li>
+<li>豆瓣：<a href="http://pypi.douban.com/simple" target="_blank" rel="external">http://pypi.douban.com/simple</a></li>
+<li>中国科学技术大学：<a href="http://pypi.mirrors.ustc.edu.cn/simple/" target="_blank" rel="external">http://pypi.mirrors.ustc.edu.cn/simple/</a></li>
+</ul>
+<h4 id="指定单次安装源"><a href="#指定单次安装源" class="headerlink" title="指定单次安装源"></a>指定单次安装源</h4><p>pip install &lt;包名&gt; -i <a href="http://pypi.v2ex.com/simple" target="_blank" rel="external">http://pypi.v2ex.com/simple</a></p>
+<h4 id="指定全局安装源"><a href="#指定全局安装源" class="headerlink" title="指定全局安装源"></a>指定全局安装源</h4><p>在unix和macos，配置文件为：$HOME/.pip/pip.conf<br>在windows上，配置文件为：%HOME%\pip\pip.ini</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">[global]</div><div class="line">timeout = 6000</div><div class="line">index-url = http://pypi.douban.com/simple</div></pre></td></tr></table></figure>
+
       
     </div>
     
     
     
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2017/09/21/笔记2/" rel="next" title="">
+                <i class="fa fa-chevron-left"></i> 
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2017/09/21/笔记4/" rel="prev" title="">
+                 <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
   </div>
 
 
@@ -272,6 +452,14 @@
 
 
           
+  <div class="comments" id="comments">
+    
+     
+       <div id="gitment-container"></div>
+     
+    
+  </div>
+
 
         </div>
         
@@ -292,8 +480,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview sidebar-panel sidebar-panel-active">
+      <section class="site-overview sidebar-panel">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
           
             <p class="site-author-name" itemprop="name">xiaoojun</p>
@@ -356,6 +553,22 @@
 
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-4"><a class="nav-link" href="#pip-常用命令"><span class="nav-number">1.</span> <span class="nav-text">pip 常用命令</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#更换国内镜像"><span class="nav-number">2.</span> <span class="nav-text">更换国内镜像</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#国内pypi镜像"><span class="nav-number">2.1.</span> <span class="nav-text">国内pypi镜像</span></a></li></ol></li><li class="nav-item nav-level-4"><a class="nav-link" href="#指定单次安装源"><span class="nav-number">3.</span> <span class="nav-text">指定单次安装源</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#指定全局安装源"><span class="nav-number">4.</span> <span class="nav-text">指定全局安装源</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
