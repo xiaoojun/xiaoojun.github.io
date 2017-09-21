@@ -695,26 +695,26 @@
 
 
 
-   
-   
-   
-   
-   <link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
-   <script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
-   
-       <script type="text/javascript">
-           var gitment = new Gitment({
-               id: window.location.pathname, 
-               owner: 'xiaoojun',
-               repo: 'xiaoojun.github.io',
-               oauth: {
-                   client_id: '357d18aeef89426fa36b',
-                   client_secret: '205f8ce3b45b423d9692dfe5e01f0895479fd039',
-               }});
-           gitment.render('gitment-container');
-       </script>
-   
-
+     
+     
+     
+     
+     <link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
+     <script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+     
+         <script type="text/javascript">
+             var gitment = new Gitment({
+                id: document.location.href, 
+                 owner: 'xiaoojun',
+                 repo: 'xiaoojun.github.io',
+                 oauth: {
+                     client_id: '357d18aeef89426fa36b',
+                     client_secret: '205f8ce3b45b423d9692dfe5e01f0895479fd039',
+                 }});
+             gitment.render('gitment-container');
+         </script>
+     
+ 
   
 
 
